@@ -7,7 +7,6 @@ public class Palindrome {
 
         String s = "MADAM";
         System.out.println(isPalindrome(s));
-
     }
 
     private static boolean isPalindrome(final String s){
