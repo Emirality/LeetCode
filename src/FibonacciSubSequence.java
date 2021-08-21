@@ -2,7 +2,9 @@ import java.util.Arrays;
 
 public class FibonacciSubSequence {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(getSubSequence(generateFibonacciSequence(5), 2, 10)));
+        int[] fibSeq = generateFibonacciSequence(10);
+        System.out.println(Arrays.toString(fibSeq));
+        System.out.println(Arrays.toString(getSubSequence(fibSeq, 3, 7)));
     }
 
     public static int[] generateFibonacciSequence(int size){
